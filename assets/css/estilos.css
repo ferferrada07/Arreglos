@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+
+body{
+    background: #4e4d4d;
+    color: white;
+    display: flex;
+ 
+}
+
+nav{
+    border-right: solid 1px white;
+}
+
+nav article {
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+}
+nav div{
+    margin-bottom: 20px;
+}
+
+
+/* Propiedades */
+
+.formulario {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.propiedades {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.propiedad{ 
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.068);
+    box-shadow: 0px 0px 7px 1px rgba(255, 255, 255, 0.39);
+    width: 29%;
+}
+
+.propiedad section{
+    padding: 10px 20px;
+}
+
+.propiedad section p{
+    margin: 0px;
+}
+
+.img{
+    display: flex;
+    flex-direction:row;
+    cursor: pointer;
+    width: 200px;
+
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
